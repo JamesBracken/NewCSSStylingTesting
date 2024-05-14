@@ -94,6 +94,8 @@ header p {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #6b7280;
+  text-align: center;
+
 }
 
 .controls input {
@@ -109,12 +111,14 @@ header p {
 
 label.invalid {
   color: #f87171;
+  text-align: center;
 }
 
 input.invalid {
   color: #ef4444;
   border-color: #f73f3f;
   background-color: #fed2d2;
+  text-align: center;
 }
 
 .actions {
