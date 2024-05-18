@@ -9,7 +9,7 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 color: ${({$invalid}) => $invalid ? '#f87171' : '#6b7280' } ;
 `
-const InputField = styled.input`
+const Input = styled.input`
 width: 100%;
   padding: 0.75rem 1rem;
   line-height: 1.5;
@@ -24,8 +24,8 @@ width: 100%;
   export default function CustomInput({ label, invalid, ...props }) {
     return (
         <p>
-            <Label $invalid ={invalid}>{label}</Label>
-            <Input $invalid ={invalid} {...props}/>
+            <Label $invalid={invalid}>{label}</Label>
+            <Input $invalid={invalid} {...props}/>
         </p>
-    )
+    );
   }
