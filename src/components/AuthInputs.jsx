@@ -50,7 +50,7 @@ export default function AuthInputs() {
             //emailNotValid ?{backgroundColor:'#fed2d2', borderColor:'#f73f3f',color:'#ef4444'}:''
             onChange={(event) => handleInputChange('email', event.target.value)}
           />
-          <Input
+         <Input
           label= 'Password'
           invalid={passwordNotValid}
             type="password"
